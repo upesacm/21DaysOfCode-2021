@@ -1,14 +1,10 @@
-#Day 1
+# Day 1
+### Documentation
+To begin this coding journey, I started with some comparitively easier questions. The question has been taken from the **Easy** questions section of the **Practice** menu of  **Codechef.**
+The given link will redirect you to the question on the Codechef website.   [Click Here](https://www.codechef.com/problems/ICM2003)
 
-###Summary
-<p>
-To begin this coding journey, I started with some comparitively easier questions. The question has been taken from the <b>Easy</b> questions section of the <b>Practice menu</b> of  <b>>Codechef.</b>
-The given link will redirect you to the question on the Codechef websitte.
-[Click Here](https://www.codechef.com/problems/ICM2003)
-</p>
+### Question
 
-###Question
-<p>
 Everyone loves short problem statements.
 
 Given a function f(x) find its minimum value over the range 0 < x < π/2 :
@@ -37,4 +33,3 @@ Sample Input:
 Sample Output:
 
 5.8831725615
-</p>
