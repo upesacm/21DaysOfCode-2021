@@ -10,10 +10,6 @@ as input.
 Then take the string, as input.
 Lastly, take the sentence as input.
 
-Constraints
-
-Strings for s and sen will have fewer than 100 characters, including the newline.
-
 Output Format
 
 Print three lines of output. The first line prints the character ch,
