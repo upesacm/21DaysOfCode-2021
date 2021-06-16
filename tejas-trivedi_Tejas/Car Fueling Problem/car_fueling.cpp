@@ -1,16 +1,14 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 int compute_min_refills(int distance, int tank, vector<int> & stops) {
     // write your code here
-    
+
     int refillCount = 0;
     int refillPosition = 0;
     int currentLocation = 0;
     int i = 0;
-    
     stops.push_back(distance);
     while(1)
     {
@@ -18,7 +16,7 @@ int compute_min_refills(int distance, int tank, vector<int> & stops) {
         {
             return refillCount;
         }
-        if (tank < stops[i] - currentLocation) 
+        if (tank < stops[i] - currentLocation)
         {
             refillPosition = i-1 ;
             if (currentLocation == stops[refillPosition])
@@ -34,11 +32,10 @@ int compute_min_refills(int distance, int tank, vector<int> & stops) {
     }
     return -1;
 }
-
 int main() {
     int d=0, m=0, n=0;
     cin >> d >>m >>n;
-    
+
     vector<int> stops(n);
     for (size_t i = 0; i < n; ++i)
         cin >> stops.at(i);
