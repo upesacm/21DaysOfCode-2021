@@ -1,25 +1,7 @@
-# Python 3 code to find sum
-# of elements in given array
-def _sum(arr):
-    # initialize a variable
-    # to store the sum
-    # while iterating through
-    # the array later
-    sum = 0
+def add_num():
+    num1=int(input("Enter first number:"))
+    num2=int(input("Enter second number:"))
+    sum=num1+num2
+    print(sum)
 
-    # iterate through the array
-    # and add each element to the sum variable
-    # one at a time
-    for i in arr:
-        sum = sum + i
-
-    return (sum)
-
-
-# driver function
-arr = []
-# input values to list
-arr = [12, 3, 4, 15]
-
-# calculating length of array
-n = len(arr)
+add_num()
