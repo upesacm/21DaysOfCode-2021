@@ -1,5 +1,4 @@
-Structures in C++ 
+Variadic functions in C
 
-</br>
+Link: https://www.hackerrank.com/challenges/variadic-functions-in-c/problem
 
-Link: https://www.hackerrank.com/challenges/c-tutorial-struct/problem
