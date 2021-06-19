@@ -1,0 +1,1 @@
+Question:  Write a Python program to get the length in bytes of one array item in the internal representation
