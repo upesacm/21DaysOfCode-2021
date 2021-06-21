@@ -1,1 +1,0 @@
-Question: https://www.hackerrank.com/challenges/staircase/problem?h_r=profile
