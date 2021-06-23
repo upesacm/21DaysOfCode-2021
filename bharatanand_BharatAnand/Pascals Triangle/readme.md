@@ -1,0 +1,1 @@
+Print pascals triangle using loops 
