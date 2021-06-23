@@ -66,6 +66,6 @@ int main()
                 }    
             }
         }
-        printf("\e");
+        printf("\n");
     }
-}
+} 
