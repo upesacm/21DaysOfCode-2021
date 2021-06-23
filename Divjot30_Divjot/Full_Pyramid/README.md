@@ -1,0 +1,1 @@
+To print the pattern of full pyramid  - Question
