@@ -1,23 +1,19 @@
 #include <stdio.h>
-int end_term(int n, int a, int b, int c) 
+int end_term(int n, int a, int b, int c)
 {
-  int i, d[50];
-  d[1]=a;
-  d[2]=b;
-  d[3]=c;
-  for(i=4;i<=n;i++)
-  {
-    d[i]=d[i-1]+d[i-2]+d[i-3];
-  }
-  return d[n];
+    if(n == 1) 
+        return a;
+    if(n == 2) 
+        return b;
+    if(n == 3) 
+        return c;
+    return end_term(n-1, a, b, c) + end_term(n-2, a, b, c) + end_term(n-3, a, b, c);
 }
 
-int main() 
+int main()
 {
     int n, a, b, c;
-  
-    scanf("%d", &n);
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d %d", &n, &a, &b, &c);
     int m = end_term(n, a, b, c);
     printf("%d", m); 
     return 0;
