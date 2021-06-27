@@ -1,0 +1,1 @@
+Question: https://www.hackerrank.com/challenges/vector-erase/problem?h_r=profile
