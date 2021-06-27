@@ -1,26 +1,28 @@
-def Diamond(rows):
+def Diamond1(rows):
 #Upper Half
-    n = 0
-    for i in range(1, rows + 1):
-        for j in range(1, (rows - i) + 1):
-            print(end=" ")
-        while n != (2 * i - 1):
-            print(n, end="")
-            n = n + 1
-        n = 0
-        print()
-#Lower Half
-    k = 1
-    n = 1
-    for i in range(1, rows):
-        for j in range(1, k + 1):
-            print(end=" ")
-        k = k + 1
-        while n <= (2 * (rows - i) - 1):
-            print(n, end="")
-            n = n + 1
-        n = 1
-        print()
+ for i in range(0, rows + 1):
+     for j in range(i, rows + 1):
+         print(" ", end =" ")
+     for j in range(0, i + 1):
+          print(j, end=" ")
+     for j in range(i - 1, 0, -1):
+            print(j, end=" ")
+     print("0")
 
-rows = 5
-Diamond(rows)
+def Diamond2(rows):
+ #Lower half
+ for i in range(0, rows + 1):
+     for j in range(i, rows + 1):
+         print(" ", end =" ")
+     for j in range(i-1,0):
+         print(j, end=" ")
+     for j in range(i - 1, 0, -1):
+         print(j, end=" ")
+     print(" ")
+
+
+
+
+rows=5
+Diamond1(rows)
+Diamond2(rows)
