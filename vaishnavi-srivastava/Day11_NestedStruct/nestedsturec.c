@@ -1,4 +1,3 @@
-//LAB EXPERIMENT 9 Ques 2//
 #include<stdio.h>
 struct student_record
 {
