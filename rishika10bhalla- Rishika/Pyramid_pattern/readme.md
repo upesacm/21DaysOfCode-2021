@@ -1,0 +1,1 @@
+Question: Print the pyramid pattern using nested loops
